@@ -69,4 +69,4 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/ClarenceJ002/ClarenceJ002.github.io.git
+  repository: https://ClarenceJ002:koru123$@github.com/ClarenceJ002/clarencej002.github.io.git
