@@ -17,7 +17,7 @@ tags:
 C:\> choco install scriptcs
 ```
 
-預設安裝位置為：`%LOCALAPPDATA%\scriptcs\`
+chocolate的預設安裝位置為：`%LOCALAPPDATA%\scriptcs\`
 
 也可以從powershell裝
 
