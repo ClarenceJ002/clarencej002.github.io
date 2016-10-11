@@ -1,5 +1,5 @@
 ---
-title: 'Script C#'
+title: 'Script C# - 安裝篇'
 date: 2016-09-26 12:28:27
 tags:
 ---
@@ -11,13 +11,18 @@ tags:
 要安裝的話
 
 可以從[chocolate](https://chocolatey.org/)安裝
-## chocolate
 
 ``` shell
 C:\> choco install scriptcs
 ```
 
-chocolate的預設安裝位置為：`%LOCALAPPDATA%\scriptcs\`
+預設安裝位置為：`%LOCALAPPDATA%\scriptcs\`
+
+使用chocolate的好處是可以用它來update package
+
+```
+C:\> choco upgrade scriptcs
+```
 
 也可以從powershell裝
 
@@ -31,3 +36,22 @@ chocolate的預設安裝位置為：`%LOCALAPPDATA%\scriptcs\`
 ``` power shell
 @powershell -NoProfile -ExecutionPolicy Unrestricted -Command "[Net.WebRequest]::DefaultWebProxy.Credentials = [Net.CredentialCache]::DefaultCredentials; iex ((New-Object Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
 ```
+
+接下來要說得很重要，所以要說三次！
+
+要記得裝.Net Framework 4.6.2以上！
+
+要記得裝.Net Framework 4.6.2以上！
+
+要記得裝.Net Framework 4.6.2以上！
+
+官方文件中，似乎沒有講到要搭配的.Net Version
+
+實測後，建議直接裝.Net Framework 4.6.2以上的版本
+
+就是有遇到Windows 7，可以跑(裝了.Net Framework 4.6)
+
+但是Windows Server 2012(也是裝了.Net Framework 4.6)，不能動啊！！！
+
+慢慢找原因，才發現是同樣是.Net 4.6，安裝在Server 2012上的，比Win 7還舊一些。  
+(詳情請參考微軟[How to: Determine Which .NET Framework Versions Are Installed](http://0rz.tw/Dkovt)
