@@ -1,7 +1,7 @@
 ---
 title: 'Script C# - 安裝篇'
 date: 2016-10-12 12:28:27
-tags:
+tags: C#
 ---
 
 這陣子因應公司需求，所以學了ScriptC#
