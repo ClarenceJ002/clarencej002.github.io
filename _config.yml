@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "J002's study site"
-subtitle:
-description:
-author: "Clarence Wu"
-language: zh-Hant-TW
-timezone: "Asia/Taipei"
+title: "J002's study site"  
+subtitle: 
+description: 
+author: "Clarence Wu"  
+language: zh-Hant-TW 
+timezone: "Asia/Taipei"  
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://clarencej002.github.io/
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+url: http://clarencej002.github.io/ 
+root: / 
+permalink: :year/:month/:day/:title/ 
+permalink_defaults: 
 
 # Directory
 source_dir: source
@@ -29,12 +29,12 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: post 
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
