@@ -1,7 +1,7 @@
 ---
 title: 'Script C# - Hello World'
 date: 2016-10-21 18:43:44
-tags:
+tags: C#
 ---
 
 假設已經用`chocolate`裝好了`Script C#`後  
