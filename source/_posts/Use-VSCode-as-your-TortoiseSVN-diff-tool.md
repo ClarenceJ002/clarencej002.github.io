@@ -1,7 +1,7 @@
 ---
 title: Use VSCode as your TortoiseSVN diff tool
 date: 2016-10-17 16:48:36
-tags: Visual Studio Code
+tags: Visual Studio Code, SVN
 ---
 
 不囉唆，先上圖  
