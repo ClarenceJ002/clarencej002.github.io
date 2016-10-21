@@ -7,7 +7,7 @@ title: "Clarence's study site"
 subtitle: 
 description: 
 author: "Clarence Wu"  
-language: zh-Hant-TW 
+language: zh-TW 
 timezone: "Asia/Taipei"  
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yelee
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
