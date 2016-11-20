@@ -1,5 +1,5 @@
 ---
-title: Use VSCode as your TortoiseSVN diff tool
+title: Use Visual Studio Code as your TortoiseSVN diff tool
 date: 2016-10-17 16:48:36
 tags: 
 - Visual Studio Code
