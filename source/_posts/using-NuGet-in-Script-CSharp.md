@@ -1,5 +1,5 @@
 ---
-title: 'Using NuGet in Script CSharp'
+title: 'ScriptC# - 在ScriptC#中使用NuGet'
 date: 2016-10-27 19:52:28
 tags: C#
 ---
