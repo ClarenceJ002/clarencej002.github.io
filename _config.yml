@@ -72,6 +72,6 @@ deploy:
   repository: https://ClarenceJ002:koru123$@github.com/ClarenceJ002/clarencej002.github.io.git
 
 # Search
-search:
-  path: search.xml
-  field: post
+#search:
+#  path: search.xml
+#  field: post
