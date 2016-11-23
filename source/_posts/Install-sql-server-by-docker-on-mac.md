@@ -13,7 +13,7 @@ Sql Server v.Next Public Preview釋出了！
 
 這邊是記錄怎麼安裝～  
 
-首先，先去裝(Docker)[https://docs.docker.com/engine/installation/]
+首先，先去裝[Docker](https://docs.docker.com/engine/installation/)
 
 裝好後，記得先把Docker的RAM設定成4G(Sql Server要求的)  
 
