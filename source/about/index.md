@@ -15,3 +15,5 @@ Proficient in WebForm, .Net MVC and Frontend(jQuery, AngularJs 1.x) in multiple 
 
 Always think how to make the product better which developed by my team.
 After the work, always keep learning and improve myself.
+
+Contact me by [E-mail](wukuncheng1106@gmail.com)
