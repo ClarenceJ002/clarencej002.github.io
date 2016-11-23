@@ -25,7 +25,7 @@ sudo docker pull microsoft/mssql-server-linux
 
 然後就會看到他在抓檔案...
 
-{% asset_img install.PNG after install command %}
+{% asset_img install.png after install command %}
 
 抓完了，裝好了，想開始跑了嗎？指令如下(記得把裡面的<YourStrong!Passw0rd>換成自訂密碼)
 
