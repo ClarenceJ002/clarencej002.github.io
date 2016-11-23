@@ -27,7 +27,7 @@ sudo docker pull microsoft/mssql-server-linux
 
 {% asset_img install.png %}
 
-抓完了，裝好了，想開始跑了嗎？指令如下(記得把裡面的<YourStrong!Passw0rd>換成自訂密碼)
+抓完了，裝好了，想開始跑了嗎？指令如下(記得把裡面的`<YourStrong!Passw0rd>`換成自訂密碼)
 
 ``` bash
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=<YourStrong!Passw0rd>' -p 1433:1433 -d microsoft/mssql-server-linux
