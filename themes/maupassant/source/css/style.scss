@@ -278,10 +278,10 @@ div {
         pre code {
             padding: 0 2em;
         }
-        span {
-            .caption {
-                display: none;
-            }
+        span.caption {
+            display: none;
+            padding-top: 0.2em;
+            padding-bottom: 0.2em;
         }
         p {
             margin: 0 0 1.234em;
