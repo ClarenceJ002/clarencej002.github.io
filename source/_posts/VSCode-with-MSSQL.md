@@ -67,3 +67,7 @@ SELECT * FROM sys.databases;
 就可以看到輸出結果了
 
 {% asset_img img8.png [Executed result] %}
+
+## Link
+
+* [Use the mssql extension for Visual Studio Code](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-develop-use-vscode)
