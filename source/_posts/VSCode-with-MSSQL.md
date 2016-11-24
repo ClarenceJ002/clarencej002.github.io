@@ -14,7 +14,7 @@ tags:
 
 接下來按`ctrl+shift+p` (Mac的話就是`command+shift+p`)
 
-{% asset_img img1.png Command Palette %}
+{% asset_img img1.png [Command Palette] %}
 
 然後選擇`install extension` (可以直接打install縮小搜尋範圍)
 
@@ -22,20 +22,20 @@ tags:
 
 再輸入`mssql`，就會看到，有兩個，選owner是Microsoft的後，按install
 
-{% asset_img img2.png Extensions %}
+{% asset_img img2.png [Extensions] %}
 
 安裝後，需要重新啟動Visual Studio Code才行
 
 裝好之後，一樣先按`ctrl+shift+p`，然後打進sql後會列出相關的指令
 
-{% asset_img img3.png Sql Commands %}
+{% asset_img img3.png [Sql Commands] %}
 
 當然要先從connect開始了...  
 一開始會先說，會把目前的編輯語言改成sql，就改吧QQ
 
 然後選`Create connection profile`
 
-{% asset_img img4.png Create Connection Profile %}
+{% asset_img img4.png [Create Connection Profile] %}
 
 依序輸入
 
@@ -48,11 +48,11 @@ tags:
 
 都好了之後，可以在又下方檢查是不是有連線成功了
 
-{% asset_img img5.png Connected to Sql Server %}
+{% asset_img img5.png [Connected to Sql Server] %}
 
 開個新檔案後，在右下方的檔案類型把他換成sql(原本是plain text)
 
-{% asset_img img6.png Current file type %}
+{% asset_img img6.png [Current file type] %}
 
 然後，直接輸入
 
@@ -62,8 +62,8 @@ SELECT * FROM sys.databases;
 
 按`ctrl+shift+p`後，先輸入sql後，選擇`Execute Query`
 
-{% asset_img img7.png Select execute sql query %}
+{% asset_img img7.png [Select execute sql query] %}
 
 就可以看到輸出結果了
 
-{% asset_img img8.png Executed result %}
+{% asset_img img8.png [Executed result] %}
