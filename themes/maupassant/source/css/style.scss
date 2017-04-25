@@ -12,6 +12,12 @@ When setting the primary font stack, apply it to the Pure grid units along
 with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
 specific font stacks to ensure the greatest OS/browser compatibility.
 */
+
+#layout > div:nth-child(1) > div > div > div.post-content > p:nth-child(5) > span
+{
+    display: none;
+}
+
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here: */
@@ -278,11 +284,6 @@ div {
         pre code {
             padding: 0 2em;
         }
-        span.caption {
-            display: none;
-            padding-top: 0.2em;
-            padding-bottom: 0.2em;
-        }
         p {
             margin: 0 0 1.234em;
             code {
@@ -316,7 +317,7 @@ div {
         }
         img {
             max-width: 100%;
-            padding: 0.5em 0 1.5em;
+            padding: 0.5em 0;
             margin: auto;
             display: block;
         }
