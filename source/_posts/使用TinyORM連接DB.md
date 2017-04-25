@@ -1,7 +1,9 @@
 ---
 title: 使用TinyORM連接DB
 tags: tinyorm
+date: 2017-04-25 15:51:25
 ---
+
 
 [TinyORM](https://github.com/sdrapkin/SecurityDriven.TinyORM/wiki/Quick-start)
 是前幾天看到 This week in .Net介紹的新的ORM Framework
