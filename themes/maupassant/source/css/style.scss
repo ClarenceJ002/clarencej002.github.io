@@ -13,11 +13,6 @@ with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
 specific font stacks to ensure the greatest OS/browser compatibility.
 */
 
-#layout > div > div > div > div.post-content > p > span
-{
-    display: none;
-}
-
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here: */
@@ -301,12 +296,13 @@ div {
                 }
             }
             .caption {
-                color: #444;
-                display: block;
-                font-size: 0.9em;
-                margin-top: 0.1em;
-                position: relative;
-                text-align: center;
+                // color: #444;
+                // display: block;
+                // font-size: 0.9em;
+                // margin-top: 0.1em;
+                // position: relative;
+                // text-align: center;
+                display: none;
             }
         }
         hr {
